@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles-seetings.css" />
+    <link rel="stylesheet" href="../css/styles-header-footer.css" />
+    <script
+      src="https://kit.fontawesome.com/ce9514e2b2.js"
+      crossorigin="anonymous"
+    ></script> 
+    <script src="../js/settingsDOM.js" defer></script>
+    <title>Configurações</title>
+  </head>
+  <body>
+    <header>
+      <div class="container__header">
+        <div class="header__logo">
+          <div class="header__img">
+            <a href="../home.html"
+              ><img src="../img/icone-projeto-nobg3.png" alt="icone Codemy"
+            /></a>
+            <div class="name">
+              <span>Codemy</span>
+            </div>
+          </div>
+        </div>
+        <div class="header__search">
+          <input type="text" placeholder="Faça sua pesquisa.." />
+        </div>
+        <div class="header__nav-bar">
+          <nav>
+            <ul class="header__nav-list">
+              <li><a href="./login.html">Login</a></li>
+              <li><a href="./cadastro.html">Cadastro</a></li>
+              <li><a href="./profile.html">Perfil</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="settings__name">
+          <h1>Configurações</h1>
+        </div>
+        <div class="settings_section">
+          <div class="settigs__sidebar">
+            <section>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-house fa-xl"></i>
+                  <a href="../home.html"> Home</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-user fa-xl"></i>
+                  <a href="./profile.html">Perfil</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-user-group fa-xl"></i>
+                  <a href="./under-construction.html">Amigos</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-thumbs-up fa-xl"></i>
+                  <a href="./under-construction.html">Redes Sociais</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-book fa-xl"></i>
+                  <a href="./under-construction.html">Meus Cursos</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-arrow-up-right-dots fa-xl"></i>
+                  <a href="./under-construction.html">Sua Evolução</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-door-open fa-xl"></i>
+                  <a href="./under-construction.html">Sair</a>
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="settigs__main-bar">
+            <section>
+              <form id="form">
+                <div class="main-bar__name">
+                  <h2>Configurações Básicas</h2>
+                </div>
+                <div class="main-bar__form">
+                  <label for="name">*Nome completo</label>
+                  <input type="text" name="" id="name"/>
+                  <p class="apoio-text" id="helperNome"></p>
+                </div>
+                <div class="main-bar__form">
+                  <label for="password">*Senha</label>
+                  <input type="password" name="" id="password"/>
+                  <a href="#">Alterar senha</a>
+                  <p class="apoio-text" id="helperSenha"></p>
+                </div>
+                <div class="main-bar__form">
+                  <label for="email">*E-mail</label>
+                  <input type="email" name="" id="email"/>
+                  <a href="#">Alterar e-mail</a>
+                  <p class="apoio-text" id="helperEmail"></p>                
+                </div>
+                <div class="main-bar__name">
+                  <h2>Configurações do Sistema</h2>
+                </div>
+                <div class="main-bar__form">
+                  <label for="language">Linguagem</label>
+                  <select id="language" name="">
+                    <option value="es">Espanhol</option>
+                    <option value="en">Inglês</option>
+                    <option selected value="pt-br">Português - Brasil</option>
+                    <option value="pt-po">Português - Portugal</option>
+                  </select>
+                </div>
+                <div class="main-bar__form-checkbox">
+                  <p>Notificações por E-mail</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider"></span>
+                  </label>
+                </div>
+                <div class="main-bar__form-checkbox">
+                  <p>Modo Daltônico</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider"></span>
+                  </label>
+                </div>
+                <div class="main-bar__button">
+                  <button type="submit" name="myButton" id="button">Salvar</button>
+                </div>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <ul class="footer__nav-list">
+          <li><a href="./under-construction.html" target="_blank">Sobre Nós</a></li>
+          <li><a href="./under-construction.html" target="_blank">Contato</a></li>
+          <li><a href="./under-construction.html" target="_blank">Suporte</a></li>
+          <li>
+            <a href="./termos-de-uso.html" target="_blank">Termos de Uso</a>
+          </li>
+          <li>
+            <a href="./politica-de-privacidade.html" target="_blank"
+              >Política de Privacidade</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div id="footer__inc">© 2022 Codemy, Inc.</div>
+  </footer>
+  </body>
+</html>

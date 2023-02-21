@@ -1,0 +1,11 @@
+/* Estilos para o vídeo */
+video {
+    width: 55%;
+    height: 55%;
+    display: block;
+    margin: 0 auto;
+  }
+  .description{
+    text-align: center;
+    
+  }
